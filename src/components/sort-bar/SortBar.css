@@ -1,0 +1,25 @@
+.btn-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.btn-group .btn {
+  border: 1px solid #000000;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+  font-family: inherit;
+}
+
+.btn-group .btn:not(:last-child) {
+  border-right: none;
+}
+
+.btn-group .btn:hover {
+  background-color: #95bcf2;
+}
+
+.btn-group .active {
+  background-color: #95bcf2;
+}

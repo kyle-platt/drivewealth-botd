@@ -1,0 +1,25 @@
+.new-burger-form {
+  padding-bottom: 15px;
+}
+
+.new-burger-form__label {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.new-burger-form__input {
+  width: 87%;
+  height: 20px;
+  border: 1px solid #000000;
+}
+
+.new-burger-form__button {
+  float: right;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  height: 24px;
+}

@@ -1,0 +1,29 @@
+.botd-card {
+  border: 1px solid #000000;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.approved {
+  color: green;
+}
+
+.botd-card__votes {
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.botd-card__name {
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+.botd-card__arrows {
+  display: grid;
+  margin-left: auto;
+  margin-right: 10px;
+  cursor: pointer;
+}
